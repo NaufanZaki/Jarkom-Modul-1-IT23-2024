@@ -186,6 +186,10 @@ My website got hacked. Can you analyze this network traffic to help me track the
 
 ![1  empat](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/dbc33f1c-5345-4a6e-a713-3e9234d2aa44)
 
+- Untuk mendapatkan username dan password yang digunakan attacker dapat dengan menginputkan filter frame contains "302 Found" lalu follow, kemudian pilih tcp stream dan find 302 Found
+
+![image](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/5920f94d-665a-4f3e-abbe-269be3ee09a2)
+
 
 ## 10. Malwaew
 
