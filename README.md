@@ -126,12 +126,39 @@ Dapatkah kamu menemukan file malware yang dikirim oleh attacker melalui ftp?
 Dapatkah kamu menemukan siapa identitas attacker?
 
 ### Flag : 
+![8  Paul](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/48ef9416-4d05-461b-b8a8-8cc6cad042c3)
+
+### Langkah -langkah :
+
+- Melakukan pencarian tcp. stream dan menemukan {} di tcp.stream eq 7
+
+![8  lagi](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/ca764ed3-2a6f-4630-aa06-5fd1c26e7866)
+
+- Melakukan decode di base 64 dan didapat namanya Paul Atreides
+
+![8  whoami](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/2f93b57a-9531-4a6b-9397-d3ec70f72f6c)
 
 ## 8. Secret 
 
 Temukan pesan rahasia dari attacker
 
 ### Flag :
+
+![9  secret](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/d23ad4a1-0d36-4b6c-8ac4-e77e0b96e64e)
+
+### Langkah -langkah :
+
+- Menginputkan filter ftp-data untuk melihat data apa saja yang ada, didapatkan ada 2 file yaitu m4L1c10us_W4re.c dan mirza.jpg
+
+![image](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/b2ed085e-6274-4505-bcdb-f59998b0952b)
+
+- Unduh file untuk melihat isi data dengan cara klik file (atas kiri), pilih export object, lalu FTP-DATA, dan save file yag dipilih
+
+![image](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/e9e98901-fa67-44cf-8c86-060bf86cf9f4)
+
+- Didapatkan pesan rahasia attacker yaitu MIO MIRZA
+
+![image](https://github.com/NaufanZaki/Jarkom-Modul-1-IT23-2024/assets/124648489/3b016be4-c1c4-4e10-b6ae-43837a2da47a)
 
 ## 9. Fuzz
 
